@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:url("https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.navigation{
+  background-color: #262626;
+  padding: 1%;
+}
+
+.navigation ul{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Baloo 2', cursive;
+  user-select: none;
+}
+
+.navigation ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  background-color: goldenrod;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 0.5rem 2.5rem;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+.navigation ul a:hover{
+  background-color: rgb(189, 143, 27);
+}
+.navigation ul h1{ 
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+}
+
+.login-wrapper{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper form{
+  background: rgba(0, 0, 0, 0.322);
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  width: 35%;
+  border-radius: 30px;
+}
+.login-wrapper form *{
+  margin: 10%;
+  font-family: 'Baloo 2', cursive;
+}
+.login-wrapper form input{
+  padding: 0.2rem 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 15px;
+}
+.login-wrapper form button{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  background-color: goldenrod;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem 2.5rem;
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+}
+.login-wrapper form button:hover{
+  background-color: rgb(189, 143, 27);
+}
+
+.friend-list-wrapper .addForm{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356);
+  padding: 1%;
+  width: 20%;
+  color: white;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+}
+.friend-list-wrapper .addForm *{
+  margin: 1%;
+  font-family: 'Baloo 2', cursive;
+}
+.friends-list{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
